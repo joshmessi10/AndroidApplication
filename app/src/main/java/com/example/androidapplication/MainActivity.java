@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
         loadingPB.setVisibility(View.VISIBLE);
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://34.72.19.242/") // Base URL
+                .baseUrl("http://35.188.126.68/") // Base URL
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
